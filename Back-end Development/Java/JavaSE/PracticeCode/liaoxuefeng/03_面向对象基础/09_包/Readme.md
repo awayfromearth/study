@@ -10,3 +10,12 @@ oop-package
             └── world
                 └── Person.java
 ```
+## 编译
+```shell
+javac -d .\bin (Get-ChildItem -Path .\src -Recurse -Filter *.java).FullName
+```
+
+## 运行
+```shell
+java -cp bin com.cm.sample.Main 
+```
