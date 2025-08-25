@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>原生滚动</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+<body>
+    <h3>原生滚动</h3>
+    <p>首次加载时有明显卡顿感</p>
+    <p>使用 Performance 调试面板可以看到 Rendering 阶段占据了大量时间</p>
+    <p>滚动过快时白屏时间长</p>
+    <p>当前示例每行仅一列，当实际应用中列数增多时，滚动会有明显的卡顿(包括横向与纵向)</p>
+    <div id="container"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
