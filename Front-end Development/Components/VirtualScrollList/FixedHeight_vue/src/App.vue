@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import VirtualScrollList from '../components/FixedHeightVirtualScrollList.vue'
+import VirtualScrollList from './components/FixedHeightVirtualScrollList.vue'
 
 const data = ref([])
 for (let i = 0; i < 10000; i++) {
